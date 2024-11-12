@@ -2,16 +2,11 @@ import Image from "next/image";
 import Logo from "@/components/ui/logo";
 import AuthBg from "@/public/images/auth-bg.svg";
 
-<<<<<<< HEAD
-
-export default function AuthLayout({ children, }: { children: React.ReactNode; }) {
-=======
 export default function AuthLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
->>>>>>> origin/develop
   return (
     <>
       <header className="absolute z-30 w-full">
