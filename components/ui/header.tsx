@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Logo from "./logo";
+import Link from "next/link"
 
 
 export default function Header() {
@@ -43,8 +44,16 @@ export default function Header() {
             <Logo />
           </div>
 
-          {/* Desktop language selection */}
           <ul className="flex flex-1 items-center justify-end gap-3">
+            <li>
+              <Link
+                href="/model"
+                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+              >
+                Modelo
+              </Link>
+            </li>
+
             <li>
               <select
                 value={language}

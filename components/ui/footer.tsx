@@ -64,7 +64,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#"
+                  href="#0"
                 >
                   {translations.features}
                 </Link>
@@ -72,7 +72,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#"
+                  href="#0"
                 >
                   {translations.integrations}
                 </Link>
@@ -80,7 +80,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               <li>
                 <Link
                   className="text-gray-600 transition hover:text-gray-900"
-                  href="#"
+                  href="#0"
                 >
                   {translations.changelog}
                 </Link>
